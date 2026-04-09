@@ -1,5 +1,28 @@
 # MLB Bulk Report Automation ⚾🤖
 
+[Read this in English](#english-version) | [Leer en Español](#versión-en-español)
+
+---
+
+## English Version
+
+This project enables the automated, mass generation of individual statistical reports for a list of **MLB** players. It is the ideal solution for processing entire rosters or groups of prospects in seconds.
+
+### ✨ Automation Capabilities:
+* **Batch Processing (Bulk):** Iterates over a list of official MLB IDs and generates an independent Excel file for each one.
+* **Format Consistency:** Every report maintains the executive standard (Blue #1F4E78, clean borders, and Career totals row).
+* **Dynamic File Management:** Automatically names files based on the player's real name retrieved from the API.
+* **Memory Optimization:** Uses `ExcelWriter` contexts to ensure each file is correctly saved and closed during the loop.
+
+### 🚀 Tech Stack:
+* **Python 3.x**
+* **Pandas / XlsxWriter**
+* **Requests** (REST API)
+
+---
+
+## Versión en Español
+
 Este proyecto permite la generación masiva y automatizada de reportes estadísticos individuales para una lista de jugadores de la **MLB**. Es ideal para procesar rosters completos o grupos de prospectos en segundos.
 
 ### ✨ Capacidades de Automatización:
@@ -11,14 +34,17 @@ Este proyecto permite la generación masiva y automatizada de reportes estadíst
 ### 🚀 Tecnologías:
 * **Python 3.x**
 * **Pandas / XlsxWriter**
-* **Requests (API REST)**
-
-### 📸 Ejemplo de Salida Masiva:
-<img width="700" height="520" alt="consola_automatizacion png" src="https://github.com/user-attachments/assets/ead986d3-a68f-4ef7-87b4-0317c442b335" />
-
-#### Resultado final del reporte:
-<img width="1366" height="736" alt="resultado_excel_pro png" src="https://github.com/user-attachments/assets/b0295c8e-5989-4d61-91a8-959be8961413" />
-
+* **Requests** (API REST)
 
 ---
-Desarrollado por **VICTOR ARMANDO DE OLIVEIRA RODRÍGUEZ**
+
+### 📸 Execution & Output Preview / Vista Previa:
+
+#### Bulk Console Output / Salida en Consola:
+<img width="700" height="520" alt="consola_automatizacion png" src="https://github.com/user-attachments/assets/ead986d3-a68f-4ef7-87b4-0317c442b335" />
+
+#### Final Report Result / Resultado Final del Reporte:
+<img width="1366" height="736" alt="resultado_excel_pro png" src="https://github.com/user-attachments/assets/b0295c8e-5989-4d61-91a8-959be8961413" />
+
+---
+Developed by / Desarrollado por **VICTOR ARMANDO DE OLIVEIRA RODRÍGUEZ**
